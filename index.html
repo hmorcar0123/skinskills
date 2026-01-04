@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkinSkills - Dermocosmética inteligente</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/374308d6e4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Carrusel con 3 imágenes representativas del sitio-->
+    <div class="container-fluid bg-body-tertiary text-normal">
+        <header class="bg-primary-subtle py-4">
+            <div class="text-center mb-0" id="eslogan">
+                <h2 class="fst-italic text-primary-emphasis">Trata tu piel de manera inteligente</h2>
+            </div>
+            <nav class="navbar navbar-expand-xl mx-4">
+                <div class="container-fluid justify-content-between justify-content-center align-items-center gap-3">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/skinskills_logotipo_usar.svg" class="logo"
+                            alt="logo skinskills vuelta al inicio" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between align-items-center" id="navbarToggler">
+                        <ul class="navbar-nav mb-2 mb-lg-0 gap-xl-5 align-items-center text-center">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="principios_activos.html">Principios activos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="recomendados.html">Recomendados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex w-100 align-items-center justify-content-center">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                                <button class="btn-search" type="submit" data-bs-toggle="tooltip"
+                                    data-bs-placement="top" title="El buscador está temporalmente fuera de servicio.">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="container-fluid px-0">
+            <div id="carousel_ppal" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="assets/images/guia_retinoides.jpg" class="d-block w-100" alt="guía de retinoides">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="assets/images/doble_limpieza.jpg" class="d-block w-100"
+                            alt="beneficios de la vitamina c">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="assets/images/beneficios_vitc.jpg" class="d-block w-100"
+                            alt="imagen vitamina C">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel_ppal"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel_ppal"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- Sección con una breve introducción a las diferentes secciones del sitio-->
+            <section class="d-flex flex-column mx-5 align-items-center justify-content-center gap-5 py-5 ">
+                <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center my-5 gap-5">
+                    <div class="d-flex flex-column w-100">
+                        <h2 class="fw-semibold">Principios activos</h2>
+                        <p>
+                            Información detallada sobre los ingredientes más importantes en dermocosmética, sus
+                            concentraciones, beneficios
+                            y uso recomendado para cada tipo de piel.
+                        </p>
+                        <ul>
+                            <li>Retinoides</li>
+                            <li>Antioxidantes</li>
+                            <li>Hidratantes</li>
+                            <li>Seborreguladores</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex w-100">
+                        <img src="assets/images/gotas.jpg" alt="Principios activos"
+                            class="img-fluid rounded shadow-sm image_section" />
+                    </div>
+                </div>
+                <div
+                    class="d-flex flex-column flex-lg-row-reverse justify-content-between align-items-center my-5 gap-5">
+                    <div class="d-flex flex-column w-100">
+                        <h2 class="fw-semibold">Recomendados</h2>
+                        <p>Nuestra selección de productos recomendados según su ingrediente principal en forma de tabla
+                            comparativa para que puedas elegir el producto que más se adapta a tí.
+                        </p>
+                        <ul>
+                            <li>Principio activo principal</li>
+                            <li>Formulación</li>
+                            <li>Concentracion</li>
+                            <li>Ingredientes complementarios</li>
+                            <li>Precio</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex w-100">
+                        <img src="assets/images/rutinas.jpg" alt="Productos recomendados"
+                            class="img-fluid rounded shadow-sm image_section" />
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center my-5 gap-5">
+                    <div class="d-flex flex-column w-100">
+                        <h2 class="fw-semibold">Contacto</h2>
+                        <p>
+                            Puedes enviar tus consultas sobre productos, rutinas o necesidades especiales y solicitar un
+                            asesoramiento personalizado.
+                            Sólo tienes que dejarnos tus datos y nos pondremos en contacto contigo.
+                        </p>
+                    </div>
+                    <div class="d-flex flex-column w-100">
+                        <img src="assets/images/asesoramiento_personalizado.jpg" alt="Contacto SkinSkills"
+                            class="img-fluid rounded shadow-sm image_section" />
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="container-fluid bg-primary-subtle py-4 px-0">
+            <div class="d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center align-items-lg-stretch py-4 my-5 gap-5 ">
+                <div class="d-flex w-25 justify-content-center">
+                    <a href="index.html">
+                        <img src="assets/images/skinskills_logotipo_usar.svg" class="logo" alt="logo skinskills">
+                    </a>
+                </div>
+                <div class="d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center align-items-lg-stretch gap-5 w-100 px-4">
+                    <div class="d-flex flex-column text-center text-lg-start w-100">
+                        <h5>Sobre nosotros</h5>
+                        <div class="d-block">
+                            <p>Nos interesa el cuidado de tu piel y que tengas a tu disposición
+                                toda la información necesaria para tratarla como se merece.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column text-center text-lg-start w-100 ">
+                        <h5>Enlaces</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="principios_activos.html">Principios activos</a></li>
+                            <li><a href="recomendados.html">Recomendados</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-column text-center text-lg-start w-100">
+                        <h5>Síguenos</h5>
+                        <ul class="list-inline social-icons">
+                            <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2025 SkinSkills. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

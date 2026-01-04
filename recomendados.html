@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkinSkills - Dermocosmética inteligente</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/374308d6e4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid bg-body-tertiary text-normal">
+       <header class="bg-primary-subtle py-4 justify-content-lg-center ">
+            <div class="text-center mb-0" id="eslogan">
+                <h2 class="fst-italic text-primary-emphasis">Trata tu piel de manera inteligente</h2>
+            </div>
+            <nav class="navbar navbar-expand-xl mx-4">
+                <div class="container-fluid justify-content-md-between justify-content-center align-items-center gap-3">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/skinskills_logotipo_usar.svg" class="logo"
+                            alt="logo skinskills vuelta al inicio" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between align-items-center" id="navbarToggler">
+                        <ul class="navbar-nav mb-2 mb-lg-0 gap-xl-5 align-items-center text-center">
+                            <li class="nav-item">
+                                <a class="nav-link"  href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="principios_activos.html">Principios activos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="recomendados.html">Recomendados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex w-100 align-items-center justify-content-center">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                                <button class="btn-search" type="submit" data-bs-toggle="tooltip"
+                                    data-bs-placement="top" title="El buscador está temporalmente fuera de servicio.">Buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="container-fluid py-5 ">
+            <section class="d-flex flex-column align-items-center justify-content-center mb-3">
+                <div class="d-flex flex-column align-items-center justify-content-center text-center mx-lg-5 gap-3">
+                    <div class="w-100">
+                        <h2 class="fw-semibold">Productos recomendados</h2>
+                    </div>
+                    <div class="w-100">
+                        <p class="lead">Consulta y compara composiciones, concentraciones, combinaciones y precios para encontrar el producto que mejor se adapta a las necesidades de tu piel</p>
+                    </div>
+                </div>
+            </section>
+            <section class="d-flex flex-column align-items-center justify-content-center py-5">
+                <div class="table-zone">
+                    <ul class="nav nav-tabs mb-3" id="productosTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="vitamina-tab" data-bs-toggle="tab"
+                                data-bs-target="#vitamina" type="button" role="tab" aria-controls="vitamina"
+                                aria-selected="true">Vitamina C</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="retinoides-tab" data-bs-toggle="tab"
+                                data-bs-target="#retinoides" type="button" role="tab" aria-controls="retinoides"
+                                aria-selected="false">Retinoides</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="niacinamida-tab" data-bs-toggle="tab"
+                                data-bs-target="#niacinamida" type="button" role="tab" aria-controls="niacinamida"
+                                aria-selected="false">Niacinamida</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="productosTabContent">
+                        <div class="tab-pane fade show active" id="vitamina" role="tabpanel"
+                            aria-labelledby="vitamina-tab">
+                            <div class="table-responsive text-wrap">
+                                <table class="table table-custom table-striped table-mobile">
+                                    <thead>
+                                        <tr>
+                                            <th>Producto</th>
+                                            <th>Formulación</th>
+                                            <th>%</th>
+                                            <th class="d-none d-lg-table-cell">Combinaciones</th>
+                                            <th class="d-none d-lg-table-cell">Formato</th>
+                                            <th>Precio</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="tbody-custom">
+                                        <tr>
+                                            <td>SkinCeuticals CE Ferulic</td>
+                                            <td>Ácido ascórbico</td>
+                                            <td>15%</td>
+                                            <td class="d-none d-lg-table-cell">Alfa Tocoferol(1%) +  Ácido Ferúlico(0,5%)</td>
+                                            <td class="d-none d-lg-table-cell">Serum 30ml</td>
+                                            <td><a href="https://www.farmacialaesparteria.es/producto/serum-cferulic-regalo-resveratrol-15ml-noche?srsltid=AfmBOoov4VfyAbCSidMxTC9i7Cvw41tpdde03oOGqQnydjmrlyPQzP1p">141,10 EUR</a></td>
+                                        </tr>
+                                         <tr>
+                                            <td>La Roche-Posay Pure Vitamin C12</td>
+                                            <td>Ácido ascórbico</td>
+                                            <td>12%</td>
+                                            <td class="d-none d-lg-table-cell">Ácido salicílico</td>
+                                            <td class="d-none d-lg-table-cell">Serum 30ml</td>
+                                            <td><a href="https://www.druni.es/pure-vitamin-c12-la-roche-posay-serum-vitamina-c12">38.95 EUR</a></td>
+                                        </tr>
+                                         <tr>
+                                            <td>Nezeni vit-c</td>
+                                            <td>Ácido ascórbico</td>
+                                            <td>15%</td>
+                                            <td class="d-none d-lg-table-cell">Niacinamida(10%) + Ac.Ferúlico + Arbutina + AH</td>
+                                            <td class="d-none d-lg-table-cell">Serum 30ml</td>
+                                            <td><a href="https://nezeni.com/producto/serum-vitamina-c-pm"/>37.90 EUR</a></td>
+                                        </tr>
+                                         <tr>
+                                            <td>Medika8 C-Tetra</td>
+                                            <td>Ascorbato de tetrahexildecilo</td>
+                                            <td>7%</td>
+                                            <td class="d-none d-lg-table-cell">Vitamina E</td>
+                                            <td class="d-none d-lg-table-cell">Serum 30ml</td>
+                                            <td><a href="https://medik8.es/products/c-tetra?srsltid=AfmBOorjU8dSPz57JHKcsNcJoXtz6Dun-IF23n8zUrH7s_S_baSHUIei"/>44 EUR</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="retinoides" role="tabpanel" aria-labelledby="retinoides-tab">
+                            <div class="table-responsive">
+                                <table class="table table-custom table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Producto</th>
+                                            <th>Fórmula</th>
+                                            <th>%</th>
+                                            <th class="d-none d-lg-table-cell">Complementos</th>
+                                            <th class="d-none d-md-table-cell">Beneficios</th>
+                                            <th>Precio</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>CeraVe Resurfacing Retinol Serum</td>
+                                            <td>Retinol</td>
+                                            <td>0.1%</td>
+                                            <td class="d-none d-lg-table-cell">Niaciamida + Ac. hialurónico + ceramidas</td>
+                                            <td class="d-none d-md-table-cell">Suaviza manchas y marcas y unifica el tono</td>
+                                            <td><a href="https://www.amazon.es/CeraVe-Anti-marcas-Enriquecido-encapsulado-esenciales/dp/B0B913JC2W?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1AT7YVPFBWXBL&language=es_ES">15.60 EUR</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>IsinCeuticals Retinal Intense</td>
+                                            <td>Retinaldehido</td>
+                                            <td>0.1%</td>
+                                            <td class="d-none d-lg-table-cell">Niaciamida + Bakuchiol</td>
+                                            <td class="d-none d-md-table-cell">Arrugas y líneas de expresión, perdida de firmeza, piel deshidratada.</td>
+                                            <td><a href="https://www.amazon.es/ISDIN-Isdinceutics-Bif%C3%A1sico-Retinaldeh%C3%ADdo-Visibles/dp/B0BD9DK6SC">53.79 EUR</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>L'Oréal Revitalift Laser Sérum</td>
+                                            <td>Retinol</td>
+                                            <td>0.2%</td>
+                                            <td class="d-none d-lg-table-cell"></td>
+                                            <td class="d-none d-md-table-cell">Arrugas y líneas de expresión, mejorar textura de la piel.</td>
+                                            <td><a href="https://www.druni.es/revitalift-laser-serum-noche-loreal-paris-serum-noche-antiarrugas">16.99 EUR</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="niacinamida" role="tabpanel" aria-labelledby="niacinamida-tab">
+                            <div class="table-responsive">
+                                <table class="table table-custom table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Producto</th>
+                                            <th>%</th>
+                                            <th class="d-none d-lg-table-cell">Beneficios</th>
+                                            <th>Uso</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Niacinamida 5%</td>
+                                            <td>5%</td>
+                                            <td class="d-none d-lg-table-cell">Reduce manchas</td>
+                                            <td>Diario</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Niacinamida 10%</td>
+                                            <td>10%</td>
+                                            <td class="d-none d-lg-table-cell">Mejora textura</td>
+                                            <td>Diario</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="container-fluid bg-primary-subtle py-4 px-0">
+            <div class="d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center align-items-lg-stretch py-4 my-5 gap-4 ">
+                <div class="d-flex w-25 justify-content-center">
+                    <a href="index.html">
+                        <img src="assets/images/skinskills_logotipo_usar.svg" class="logo" alt="logo skinskills">
+                    </a>
+                </div>
+                <div class="d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center align-items-lg-stretch gap-4 w-100 px-4">
+                    <div class="d-flex flex-column text-center text-lg-start w-100">
+                        <h5>Sobre nosotros</h5>
+                        <p>Nos interesa el cuidado de tu piel y que tengas a tu disposición
+                            toda la información necesaria para tratarla como se merece.</p>
+                    </div>
+                    <div class="d-flex flex-column text-center text-lg-start w-100">
+                        <h5>Enlaces</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="principios_activos.html">Principios activos</a></li>
+                            <li><a href="recomendados.html">Recomendados</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-column text-center text-lg-start w-100">
+                        <h5>Síguenos</h5>
+                        <ul class="list-inline social-icons">
+                            <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2025 SkinSkills. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
