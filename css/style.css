@@ -1,5 +1,11 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .text-normal {
   color: #737373 !important;
 }
@@ -43,7 +49,8 @@ button.navbar-toggler:focus {
   box-shadow: 0 0 5px #a2cc78;
 }
 
-button.navbar-toggler, button.navbar-toggler:active {
+button.navbar-toggler,
+button.navbar-toggler:active {
   background-color: rgba(62, 204, 120, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: none !important;
@@ -249,16 +256,38 @@ img.image_section {
      object-position: center;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .popover-header {
   font-size: 1.05rem;
   background: rgba(62, 204, 120, 0.1) !important;
   cursor: pointer;
+}
+
+.btnVideo {
+  background-color: #a2cc78;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+.btnVideo:hover, .btnVideo:focus {
+  background-color: rgb(136.5, 190.0161290323, 82.9838709677);
+  color: white;
+}
+
+.btnVol {
+  background-color: #abdddc;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+.btnVol:hover, .btnVol:focus {
+  background-color: rgb(136.5, 190.0161290323, 82.9838709677);
+  color: white;
 }
 
 /*!
